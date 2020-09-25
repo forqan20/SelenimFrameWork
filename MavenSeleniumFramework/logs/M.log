@@ -1,0 +1,5 @@
+[TRACE] 2020-09-16 16:22:10.035 [main] Log4jDemo - This is a trace massage 
+[INFO ] 2020-09-16 16:22:10.038 [main] Log4jDemo - this is  informatiom massage
+[ERROR] 2020-09-16 16:22:10.038 [main] Log4jDemo - this is error massage 
+[WARN ] 2020-09-16 16:22:10.038 [main] Log4jDemo - This is a warring massage
+[FATAL] 2020-09-16 16:22:10.039 [main] Log4jDemo - This is a fatal massage 

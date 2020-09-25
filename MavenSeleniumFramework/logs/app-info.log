@@ -1,0 +1,9 @@
+[INFO ] 2020-09-16 16:24:47.973 [main] Log4jDemo - this is  informatiom massage
+[ERROR] 2020-09-16 16:24:47.975 [main] Log4jDemo - this is error massage 
+[WARN ] 2020-09-16 16:24:47.976 [main] Log4jDemo - This is a warring massage
+[FATAL] 2020-09-16 16:24:47.976 [main] Log4jDemo - This is a fatal massage 
+[TRACE] 2020-09-16 16:26:32.047 [main] Log4jDemo - This is a trace massage 
+[INFO ] 2020-09-16 16:26:32.050 [main] Log4jDemo - this is  informatiom massage
+[ERROR] 2020-09-16 16:26:32.050 [main] Log4jDemo - this is error massage 
+[WARN ] 2020-09-16 16:26:32.051 [main] Log4jDemo - This is a warring massage
+[FATAL] 2020-09-16 16:26:32.051 [main] Log4jDemo - This is a fatal massage 
