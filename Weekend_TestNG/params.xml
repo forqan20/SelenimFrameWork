@@ -1,0 +1,19 @@
+<suite name = "paramsuite" >
+
+   <test name = "paramtest">
+   <parameter name="firstname" value="tester1"/>
+   <parameter name="password" value="mercury"/>
+          <classes>
+                  <class name = "com.test.testng.examples.Parameters_Demoaut"></class>            
+          </classes>      
+   </test>
+   
+   <test name = "paramtest1">
+   <parameter name="firstname" value="tester2"/>
+   <parameter name="password" value="mercury"/>
+          <classes>
+                  <class name = "com.test.testng.examples.Parameters_Demoaut"></class>            
+          </classes>      
+   </test> 
+    
+</suite>

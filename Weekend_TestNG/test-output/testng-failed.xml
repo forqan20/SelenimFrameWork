@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallelTest]" parallel="tests">
+  <test thread-count="5" name="ieTest(failed)" parallel="tests">
+    <parameter name="browsertype" value="ie"/>
+    <classes>
+      <class name="com.test.testng.examples.ParallelTestExample">
+        <methods>
+          <include name="demoLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.testng.examples.ParallelTestExample -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+  <test thread-count="5" name="chromeTest(failed)" parallel="tests">
+    <parameter name="browsertype" value="chrome"/>
+    <classes>
+      <class name="com.test.testng.examples.ParallelTestExample">
+        <methods>
+          <include name="demoLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.testng.examples.ParallelTestExample -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="firefoxTest(failed)" parallel="tests">
+    <parameter name="browsertype" value="firefox"/>
+    <classes>
+      <class name="com.test.testng.examples.ParallelTestExample">
+        <methods>
+          <include name="demoLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.testng.examples.ParallelTestExample -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [parallelTest] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [paramsuite]">
+  <test thread-count="5" name="paramtest(failed)">
+    <classes>
+      <class name="com.test.testng.examples.Parameters_Demoaut">
+        <methods>
+          <include name="demoLogin"/>
+        </methods>
+      </class> <!-- com.test.testng.examples.Parameters_Demoaut -->
+    </classes>
+  </test> <!-- paramtest(failed) -->
+</suite> <!-- Failed suite [paramsuite] -->

@@ -1,0 +1,13 @@
+<suite name = "grouping"> 
+     <test name = "groupingexample">      
+           <groups>
+                  <run>                  
+                         <include name = "hondasedan"></include>
+                  </run>           
+           </groups>
+           
+           <classes>
+               <class name = "com.test.testng.examples.GroupingCars"></class>               
+           </classes>
+     </test>
+</suite>

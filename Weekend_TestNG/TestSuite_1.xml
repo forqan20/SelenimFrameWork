@@ -1,0 +1,8 @@
+<suite name = "TestSuite_1">
+   <test name="smoketest">   
+         <classes>
+		          <class name = "com.test.testng.examples.AmazonTest"></class>
+		          <class name = "com.test.testng.examples.Demoaut"> </class>
+          </classes>              
+   </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grouping]">
+  <test thread-count="5" name="groupingexample(failed)">
+    <groups>
+      <run>
+        <include name="hondasedan"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.testng.examples.AmazonTest">
+        <methods>
+          <include name="registerAmazon"/>
+        </methods>
+      </class> <!-- com.test.testng.examples.AmazonTest -->
+    </classes>
+  </test> <!-- groupingexample(failed) -->
+</suite> <!-- Failed suite [grouping] -->

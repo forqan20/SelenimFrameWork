@@ -1,0 +1,17 @@
+<suite name = "smoketest">
+    <test name = "amazonsmoke" preserve-order = "true">    
+               <classes>
+                  <class name = "com.test.testng.examples.AmazonTest" >
+                       <methods>
+                              <include name = "registerAmazon"></include> 
+                       </methods>
+                  </class>
+                  
+                  <class name = "com.test.testng.examples.Demoaut">
+                        <methods>
+                                 <include name = "RegisterUser"></include>                                 
+                        </methods> 
+                  </class>               
+               </classes>    
+    </test>
+</suite>
